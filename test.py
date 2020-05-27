@@ -5,6 +5,7 @@ def test_func():
 
 def test_func01():
     print ("hello? linux")
+
 test_func()
 test_func01()
 print("hello, fedora")

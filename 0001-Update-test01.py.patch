@@ -1,0 +1,21 @@
+From 38ac008e6cad22c3ca63470cf15c854e2a20cde0 Mon Sep 17 00:00:00 2001
+From: Trevor <weilaidegeng1994@163.com>
+Date: Wed, 27 May 2020 15:40:17 +0800
+Subject: [PATCH 1/2] Update test01.py
+
+---
+ pytest/test01.py | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/pytest/test01.py b/pytest/test01.py
+index 9b3472f..c055f61 100644
+--- a/pytest/test01.py
++++ b/pytest/test01.py
+@@ -14,3 +14,4 @@ print("hello, fedora")
+ print("hello, fedora")
+ print("hello, fedora")
+ print("hello, fedora")
++print("origin line")
+-- 
+2.21.0
+

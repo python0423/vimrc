@@ -1,5 +1,6 @@
 " Options list
 set nu
+
 syntax on
 set ruler
 if version >=603
@@ -10,6 +11,7 @@ set encoding=utf-8
 set fileencoding=utf-8
 set fileencodings=utf-8,gbk,cp936
 set cursorline
+set cursorcolumn
 set cindent
 set tabstop=4
 set history=1000
@@ -19,7 +21,7 @@ set nobackup
 set nowritebackup
 set shortmess=alI "close start info up
 set nocompatible
-
+colorscheme industry
 
 
 " Plugin list
@@ -34,6 +36,11 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'jiangmiao/auto-pairs'
 " auto complete
 Plugin 'ycm-core/YouCompleteMe'
+"surrond
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-repeat'
+" commentary
+Plugin 'tpope/vim-commentary'
 
 call vundle#end()
 filetype plugin indent on
